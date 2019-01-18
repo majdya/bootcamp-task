@@ -1,0 +1,29 @@
+body{
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #80a093
+}
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px; 
+
+}
+img{
+    /* width: 20%;  */
+    width: 25%;
+    height: auto;
+    
+}
+.box{
+    float: left;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+}
