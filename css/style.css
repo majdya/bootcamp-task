@@ -11,6 +11,26 @@ body{
 }
 
 /* Boxes */
+@media only screen and (max-width: 600px) {
+        #boxes{
+            margin-top:20px; 
+        
+        }
+        img{
+            /* width: 20%;  */
+            width: 80%;
+            height: auto;
+            
+        }
+        .box{
+            float: left;
+            text-align: center;
+            width: 80%;
+            padding: 10px;
+        }
+    }
+  
+
 #boxes{
     margin-top:20px; 
 
