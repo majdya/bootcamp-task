@@ -2,7 +2,13 @@ body{
     font:15px/1.5 Arial,Helvetica,sans-serif;
     padding: 0;
     margin: 0;
-    background: #80a093
+    background-image: url("../img/js.png");
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    background: #278310
+
+   
+    
 }
 .container{
     width:80%;
@@ -11,32 +17,33 @@ body{
 }
 
 /* Boxes */
-@media only screen and (min-width: 600px) {
 
-    #boxes{
-        margin-top:20px; 
+
+
+#boxes{
+    margin-top:20px; 
     
-    }
-    img{
-        /* width: 20%;  */
-        width: 70%;
-        height: auto;
-        
-    }
-    .box{
-        float: left;
-        text-align: center;
-        width: 70%;
-        padding: 10px;
-    }
 }
+img{
+    width: 20%;
+    width: 70%;
+    height: auto;
+
+}
+.box{
     
-@media only screen and (max-width: 800px) {
+    float: left;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 760px) {
 
     
     #boxes{
         margin-top:20px; 
-
+        
     }
     img{
         /* width: 20%;  */
@@ -50,5 +57,7 @@ body{
         width: 22%;
         padding: 10px;
     }
-    
 }
+
+
+    
