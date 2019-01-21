@@ -2,9 +2,6 @@ body{
     font:15px/1.5 Arial,Helvetica,sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("../img/js.png");
-    background-repeat: no-repeat;
-    background-size: 100% 180%;
     background: #278310
 
    
@@ -38,7 +35,7 @@ img{
     padding: 10px;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 600px) {
 
     
     #boxes{
